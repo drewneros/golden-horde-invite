@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2B2A29">
+<title>Этнопарк «Золотая Орда» · 15 октября</title>
+<meta name="description" content="Приглашаем ярко отметить праздник в Этнопарке «Золотая Орда»!">
+<meta property="og:title" content="Приглашаем ярко отметить праздник в Этнопарке «Золотая Орда»!">
+<meta property="og:description" content="ДАТА: 15 октября (чт) 14:30">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://drewneros.github.io/golden-horde-invite/">
+<meta property="og:image" content="https://drewneros.github.io/golden-horde-invite/assets/photos/fire.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/brand/logo-light.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="assets/photos/fire.jpg">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<div class="cover" id="cover" role="dialog" aria-modal="true" aria-labelledby="cover-greet">
+  <img class="cover__bg" src="assets/photos/ceiling.jpg" width="1800" height="1200" alt="">
+  <div class="cover__inner">
+    <img class="cover__logo" src="assets/brand/logo-dark.svg" width="149" height="96" alt="Этнопарк «Золотая Орда»">
+    <span class="bar" aria-hidden="true"></span>
+    <p class="cover__greet" id="cover-greet">
+      <span class="cover__line">Уважаемые коллеги!</span>
+      <span class="cover__line cover__line--big">С Международным днем туризма!!!</span>
+    </p>
+    <button class="btn" id="open" type="button">
+      <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      Открыть приглашение
+    </button>
+  </div>
+</div>
+
+<button class="sound" id="sound" type="button" aria-pressed="true" aria-label="Выключить музыку" hidden>
+  <svg class="sound__on" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+  <svg class="sound__off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor"/><path d="M16 9.5l5 5M21 9.5l-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+</button>
+<audio id="music" src="assets/audio/music-web.mp3" preload="none" loop></audio>
+
+<main id="main">
+
+  <section class="slide slide--one" id="slide-1" aria-labelledby="s1-title">
+    <figure class="s1__photo">
+      <img src="assets/photos/fire.jpg" width="1800" height="1200" alt="Люди в национальных костюмах у костра под открытым небом">
+    </figure>
+    <div class="s1__text">
+      <img class="s1__logo" src="assets/brand/logo-light.svg" width="180" height="169" alt="Этнопарк «Золотая Орда»">
+      <p class="s1__greet reveal">Уважаемые коллеги!<br>С Международным днем туризма!!!</p>
+      <h1 class="s1__title reveal" id="s1-title" tabindex="-1">Приглашаем ярко отметить праздник в&nbsp;Этнопарке «Золотая Орда»!</h1>
+      <p class="s1__lede reveal">Это будет не просто праздник, а ужин-фестиваль-нетворкинг-погружение в культуру!</p>
+      <p class="s1__date reveal"><span class="s1__label">ДАТА:</span> <span class="s1__when">15 октября (чт) 14:30</span></p>
+      <p class="s1__body reveal">Вас ждёт красивая встреча, захватывающая этнофольклорная программа с национальными инструментами, народными танцами и горловым пением. Для вас будут открыты интерактивные локации: юрта с национальными костюмами, которые вы сможете примерить и устроить фотосессию на фоне новых арт-объектов Этнопарка; презентация сувенирной продукции и мастеров.</p>
+    </div>
+  </section>
+
+  <section class="story" aria-label="Программа вечера">
+    <div class="story__stage" aria-hidden="true">
+      <figure class="story__frame is-active" data-step="0">
+        <img class="story__main" src="assets/photos/drummer.jpg" width="1800" height="1200" alt="" loading="lazy" decoding="async">
+        <img class="story__inset" src="assets/photos/flute.jpg" width="1800" height="1200" alt="" loading="lazy" decoding="async">
+      </figure>
+      <figure class="story__frame" data-step="1">
+        <img class="story__main" src="assets/photos/dancers.jpg" width="1800" height="1200" alt="" loading="lazy" decoding="async">
+        <img class="story__inset" src="assets/photos/redwoman.jpg" width="1800" height="1350" alt="" loading="lazy" decoding="async">
+      </figure>
+      <figure class="story__frame" data-step="2">
+        <img class="story__main story__main--archer" src="assets/photos/archer.jpg" width="1800" height="1200" alt="" loading="lazy" decoding="async">
+      </figure>
+    </div>
+    <div class="story__panels">
+      <article class="panel" data-step="0">
+        <div class="panel__box reveal">
+          <span class="bar" aria-hidden="true"></span>
+          <p class="panel__lead">Особый момент вечера — обрядовый интерактив с действующим шаманом и встреча с Шэрээтэ ламой местного дацана. Это редкая возможность услышать зов древних духов, получить благословение и почувствовать единство двух миров. А еще — конкурсы, азарт, смех и сюрпризы.</p>
+        </div>
+      </article>
+      <article class="panel" data-step="1">
+        <div class="panel__box reveal">
+          <h2 class="heading">В программе также:</h2>
+          <ul class="list">
+            <li>Welcome drink — дегустация напитков и закусок от организатора, Этнопарка «Золотая Орда»;</li>
+            <li>банкет с национальными блюдами, в том числе «Ханская юрта» — победитель регионального гастрономического фестиваля, которую шеф-повар будет готовить при гостях на гриль-станции;</li>
+            <li>розыгрыш специальных призов от генерального организатора — сертификатов на зимние программы от Этнопарка «Золотая Орда»;</li>
+            <li>комфортный трансфер.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="panel" data-step="2">
+        <div class="panel__box reveal">
+          <span class="bar" aria-hidden="true"></span>
+          <p class="panel__close">Пусть этот вечер станет золотой нитью в нашей деловой и личной истории.</p>
+          <p class="panel__wait">Ждём вас!</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="slide slide--two" id="slide-2" aria-label="Тайминг, оргсбор и регистрация">
+    <div class="s2__col s2__timing">
+      <h2 class="heading">ТАЙМИНГ (ПРОЕКТ):</h2>
+      <ol class="timeline">
+        <li><span class="timeline__t">13:00</span> <span>— выезд из Иркутска (ул. Сухэ-Батора, 7 ГК Ангара)</span></li>
+        <li><span class="timeline__t">14:30</span> <span>— встреча в Этнопарке «Золотая Орда», превью-программы, дегустация, фотосессии, знакомство с арт-объектами, прогулка по Этнопарку</span></li>
+        <li><span class="timeline__t">16:00</span> <span>— начало программы</span></li>
+        <li><span class="timeline__t">20:00</span> <span>— завершение программы</span></li>
+        <li><span class="timeline__t">20:30</span> <span>— трансфер в Иркутск</span></li>
+      </ol>
+    </div>
+
+    <div class="s2__col s2__fee">
+      <p class="fee"><span class="heading fee__label">ОРГСБОР</span> — праздничного ужина с партнерской скидкой <span class="fee__num">3700&nbsp;₽/персона.</span></p>
+      <p class="details"><strong>ДЕТАЛИ</strong>: Алкоголь гости могут привезти с собой или заказать на месте, в стоимость мероприятия алкоголь не входит.</p>
+      <p class="deadline">Просим подать заявку и внести оргсбор <strong>до 11 октября</strong>. Количество мест ограничено, спешите подать заявку.</p>
+    </div>
+
+    <div class="s2__col s2__reg">
+      <h2 class="heading">РЕГИСТРАЦИЯ И КОНТАКТЫ:</h2>
+      <div class="reg">
+        <a class="reg__qrlink" href="https://forms.yandex.ru/cloud/6aba18a895add5d797e3d402" target="_blank" rel="noopener"><img class="reg__qr" src="assets/brand/qr-registration.svg" width="37" height="37" alt="QR-код регистрации"></a>
+        <a class="reg__link" href="https://forms.yandex.ru/cloud/6aba18a895add5d797e3d402" target="_blank" rel="noopener">https://forms.yandex.ru/cloud/6aba18a895add5d797e3d402</a>
+      </div>
+      <p class="phone">Или по телефону: Этнопарк «Золотая Орда»: <a href="tel:89996850885">8 999 685 08 85</a></p>
+      <p class="phone">Анна Головченко: <a href="tel:89501126022">8 950 112 60 22</a></p>
+    </div>
+
+    <div class="s2__band">
+      <p class="orgs"><strong>Организаторы</strong>: Этнопарк «Золотая Орда»,<br>а также исполнительная дирекция СБАТ, Комитет по туризму ТПП ВС, транспортная компания АТА «Байкал круиз»</p>
+      <img class="s2__logo" src="assets/brand/logo-light.svg" width="180" height="169" alt="Этнопарк «Золотая Орда»">
+    </div>
+  </section>
+
+  <section class="finale" aria-labelledby="fin-title">
+    <img class="finale__logo reveal" src="assets/brand/logo-dark.svg" width="149" height="96" alt="Этнопарк «Золотая Орда»">
+    <span class="bar reveal" aria-hidden="true"></span>
+    <h2 class="finale__title reveal" id="fin-title">Отметим наш профессиональный праздник ярко, интересно, с пользой для бизнеса и зарядимся энергией на предстоящий зимний сезон!</h2>
+    <a class="btn reveal" href="https://forms.yandex.ru/cloud/6aba18a895add5d797e3d402" target="_blank" rel="noopener">Подать заявку</a>
+    <div class="finale__phones reveal">
+      <p>Этнопарк «Золотая Орда»: <a href="tel:89996850885">8 999 685 08 85</a></p>
+      <p>Анна Головченко: <a href="tel:89501126022">8 950 112 60 22</a></p>
+    </div>
+  </section>
+
+</main>
+
+<noscript><style>.cover{display:none}html{overflow:auto}</style></noscript>
+<script src="main.js" defer></script>
+</body>
+</html>
