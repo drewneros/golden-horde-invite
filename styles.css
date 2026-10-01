@@ -169,7 +169,8 @@ a { color: inherit; }
   position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
   transform: scale(1.05); transition: transform 2.6s var(--ease);
 }
-.story__main--archer { object-position: 30% 50%; }
+/* Archer: frame his face (35-55% across) and the sharp hand on the bow (53-75%) together */
+.story__main--archer { object-position: 59% 50%; }
 .story__frame.is-active .story__main { transform: none; }
 .story__inset {
   position: absolute; right: clamp(24px, 3vw, 56px); bottom: clamp(24px, 3vw, 56px);
@@ -272,7 +273,7 @@ a { color: inherit; }
   .panel { justify-content: flex-end; padding: 0 12px 12px; }
   .panel__box { background: var(--white); padding: 24px 20px; box-shadow: 0 -10px 30px rgba(43, 42, 41, .25); }
   .story__inset { width: 40%; top: 72px; right: 20px; bottom: auto; border-width: 4px; }
-  .story__main--archer { object-position: 74% 50%; }
+  .story__main--archer { object-position: 50% 50%; }
 
   .slide--two { grid-template-columns: 1fr; grid-template-rows: none; min-height: 0; padding: 64px var(--pad); row-gap: 40px; }
   .s2__fee, .s2__reg { padding-left: 0; border-left: 0; padding-top: 36px; border-top: 1px solid var(--line); }
